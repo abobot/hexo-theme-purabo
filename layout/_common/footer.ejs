@@ -1,6 +1,6 @@
 <!-- 引入不蒜子站点统计 -->
-<% if(theme.site.visitor && !theme.pv.busuanzi.enable) { %>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<% if(theme.site.visitor) { %>
+    <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
 
 <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 	<%- partial('_common/social', null, {cache: !config.relative_link}) %>
