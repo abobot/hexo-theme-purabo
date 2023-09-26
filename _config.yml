@@ -41,6 +41,9 @@ purabo:
       enable: true
   fold_action:
     enable: true
+  preloader:
+    enable: true
+    layout: gear # gear, spinner-box 两种样式
 
 # tag_cloud #已内置 参照 `hexo-tag-cloud`
 tag_cloud:
@@ -289,4 +292,3 @@ profile:
   # My Personal Projects
   projects:
     abobot/hexo-theme-purabo: https://github.com/abobot/hexo-theme-purable
-
