@@ -1,4 +1,5 @@
-<% if (theme.pv.busuanzi.enable) { %>
+<!-- 不这样写busuanzi会引入两次 -->
+<% if (theme.pv.busuanzi.enable && !theme.site.visitor) { %>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <% } %>
 
