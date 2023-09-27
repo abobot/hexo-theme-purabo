@@ -18,6 +18,9 @@
   <% if (theme.plugins.google_site_verification) { %>
   <meta name="google-site-verification" content="<%= theme.plugins.google_site_verification %>" />
   <% } %>
+  <% if(theme.baidu_url_submit.enable) { %>
+    <%- partial('_purabo/baidupush') %>
+  <% } %>
   <%
   var title = page.title;
 

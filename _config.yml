@@ -292,3 +292,9 @@ profile:
   # My Personal Projects
   projects:
     abobot/hexo-theme-purabo: https://github.com/abobot/hexo-theme-purable
+
+# 百度自动推送
+# 需要安装 baidu_url_submit
+baidu_url_submit:
+    enable: true
+
