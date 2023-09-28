@@ -9322,3 +9322,26 @@ img.vimg:hover {
 /* valine评论区 end */
 
 
+/* spoiler 隐藏文本 start */
+/* !!balabala!! 鼠标放置时显示内容。 */
+/* !!balabala!!{.bulr} 鼠标选中时显示内容 */
+.spoiler:not(.bulr) {
+  background-color: #333;
+  color: var(#333);
+  text-shadow: none;
+  transition: color .3s;
+  padding:0 .1875rem;
+}
+
+.spoiler:hover {
+  color: #FFF;
+}
+
+.spoiler.bulr {
+  text-shadow: rgba(0, 0, 0, .7) 0rem 0rem .625rem;
+  color: transparent;
+}
+
+/* spoiler 隐藏文本 end */
+
+

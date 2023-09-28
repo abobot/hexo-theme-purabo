@@ -1,0 +1,4 @@
+安装`markdown-it-spoiler`
+/* spoiler 隐藏文本 start */
+/* !!balabala!! 鼠标放置时显示内容。 */
+/* !!balabala!!{.bulr} 鼠标选中时显示内容 */
